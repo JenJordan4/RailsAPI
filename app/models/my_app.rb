@@ -13,13 +13,11 @@ class MyApp < ApplicationRecord
 
     ##Order by the order param. If none specified, order by ascending
     ordered = params[:order]&.to_sym || :asc
-    filter_query = self.order(params[:by] => ordered)
-    
+    filter_query = select(:id, :name).order(params[:by] => ordered)
     #Set the start to the :start param
     filter_query = filter_query.offset(params[:start]) if params[:start]
-
     ##If there's no max, then max 50. 
-    max = params[:max].to_i || 50
+    max = params[:max] || 50
 
 
     ##Show only the amount within the boundaries (end - start)

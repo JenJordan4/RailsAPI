@@ -1,7 +1,8 @@
-class MyAppsController < AppliationController
+class AppsController < ApplicationController
     
   def index
-    @myApps = MyApp.search(search_params)
+    @my_apps = MyApp.search(search_params)
+
     render json: @my_apps
   end
 
