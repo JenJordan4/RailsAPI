@@ -27,3 +27,6 @@ Note: If the `start` and `end` parameters are specified, and its range exceeds t
 The API returns a default maximum of 50 items. The `max` parameter can be used to change this. If the `start` and `end` parameters exceed the `max`, then the `max` will take precedence.
 
 For example: A GET request of `localhost:3000/apps?range[by]=id&range[max]=5` will return 5 items.
+
+### Tests
+Automated tests have been created for this API. Simply open to the file in the Terminal and run `rails tests` to test it and see the results. The tests can be found in `tests > models > my_app_test.rb`
