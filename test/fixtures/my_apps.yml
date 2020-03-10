@@ -1,7 +1,241 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
+app1:
+  id: 1
+  name: my-app-001
 
-two:
-  name: MyString
+app2:
+  id: 2
+  name: my-app-002
+
+app3:
+  id: 3
+  name: my-app-003
+
+app4:
+  id: 4
+  name: my-app-004
+
+app5:
+  id: 5
+  name: my-app-005
+
+app6:
+  id: 6
+  name: my-app-06
+
+app7:
+  id: 7
+  name: my-app-007
+
+app8:
+  id: 8
+  name: my-app-008
+
+app9:
+  id: 9
+  name: my-app-009
+
+app10:
+  id: 10
+  name: my-app-010
+
+app11:
+  id: 11
+  name: my-app-011
+
+app12:
+  id: 12
+  name: my-app-012
+
+app13:
+  id: 13
+  name: my-app-013
+
+app14:
+  id: 14
+  name: my-app-014
+
+app15:
+  id: 15
+  name: my-app-015
+
+app16:
+  id: 16
+  name: my-app-016
+
+app17:
+  id: 17
+  name: my-app-017
+
+app18:
+  id: 18
+  name: my-app-018
+
+app19:
+  id: 19
+  name: my-app-019
+
+app20:
+  id: 20
+  name: my-app-020
+
+app21:
+  id: 21
+  name: my-app-021
+
+app22:
+  id: 22
+  name: my-app-022
+
+app23:
+  id: 23
+  name: my-app-023
+
+app24:
+  id: 24
+  name: my-app-024
+
+app25:
+  id: 25
+  name: my-app-025
+
+app26:
+  id: 26
+  name: my-app-026
+
+app27:
+  id: 27
+  name: my-app-027
+
+app28:
+  id: 28
+  name: my-app-028
+
+app29:
+  id: 29
+  name: my-app-029
+
+app30:
+  id: 30
+  name: my-app-030
+
+app31:
+  id: 31
+  name: my-app-031
+
+app32:
+  id: 32
+  name: my-app-032
+
+app33:
+  id: 33
+  name: my-app-033
+
+app34:
+  id: 34
+  name: my-app-034
+
+app35:
+  id: 35
+  name: my-app-035
+
+app36:
+  id: 36
+  name: my-app-036
+
+app37:
+  id: 37
+  name: my-app-037
+
+app38:
+  id: 38
+  name: my-app-038
+
+app39:
+  id: 39
+  name: my-app-039
+
+app40:
+  id: 40
+  name: my-app-040
+
+app41:
+  id: 41
+  name: my-app-041
+
+app42:
+  id: 42
+  name: my-app-042
+
+app43:
+  id: 43
+  name: my-app-043
+
+app44:
+  id: 44
+  name: my-app-044
+
+app45:
+  id: 45
+  name: my-app-045
+
+app46:
+  id: 46
+  name: my-app-046
+
+app47:
+  id: 47
+  name: my-app-047
+
+app48:
+  id: 48
+  name: my-app-048
+
+app49:
+  id: 49
+  name: my-app-049
+
+app50:
+  id: 50
+  name: my-app-050
+
+app51:
+  id: 51
+  name: my-app-051
+
+app52:
+  id: 52
+  name: my-app-052
+
+app53:
+  id: 53
+  name: my-app-053
+
+app54:
+  id: 54
+  name: my-app-054
+
+app55:
+  id: 55
+  name: my-app-055
+
+app56:
+  id: 56
+  name: my-app-056
+
+app57:
+  id: 57
+  name: my-app-057
+
+app58:
+  id: 58
+  name: my-app-058
+
+app59:
+  id: 59
+  name: my-app-059
+
+app60:
+  id: 60
+  name: my-app-060

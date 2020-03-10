@@ -14,7 +14,7 @@ class MyApp < ApplicationRecord
       success: false,
       message: "The end parameter must be higher than the start parameter"
     } if params[:end] && params[:end].to_i < params[:start].to_i
-
+    
     #Order items by the order param. If none specified, order by ascending
     ordered = params[:order]&.to_sym || :asc
     filter_query = select(:id, :name).order(params[:by] => ordered)
@@ -35,6 +35,7 @@ class MyApp < ApplicationRecord
     
 
     #Display the page max
-    filter_query.limit(max)
+    return filter_query.limit(max)
+
   end
 end
